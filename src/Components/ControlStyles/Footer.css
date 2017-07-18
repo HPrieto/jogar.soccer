@@ -1,0 +1,92 @@
+/*
+Grey Nav Collapse Home: #F8F9FB;
+Grey Nav Text: #929292;
+Black Nav Text: #020202;
+Jogar Blue: #08B7BF;
+Jogar Grey: #7D9596;
+Jogar Cyan: #0B6E6B;
+*/
+#footer {
+	background-color: #929292;
+	width: 100%;
+}
+
+.FooterButton {
+	background-color: transparent;
+	color: white;
+	font-family: "Nunito-Light";
+	border-radius: 0px;
+}
+
+.FooterButton:focus {
+	outline: none !important;
+	box-shadow: none;
+	color: white;
+}
+/*Desktop*/
+@media (min-width: 768px) {
+	#footer {
+        height: 70px;
+    }
+    #footer ul {
+    	width: 80%;
+    	margin: 10px auto;
+    	position: absolute;
+		float: left;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+    }
+    .FooterButton {
+    	font-size: 1.0em;
+		margin: 50px 25px 0;
+		padding: 0 2px 0.5px 2px;
+		border-radius: 0px;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+	}
+	.home-footer-btn {
+		color: white;
+		border-bottom: .12em solid #929292;
+	}
+	.home-footer-btn:hover {
+		color: white;
+		border-bottom: .12em solid #929292;
+	}
+	.nav-footer-btn {
+		color: white;
+		border-bottom: .12em solid #929292;
+		border-radius: 0px;
+	}
+	.nav-footer-btn:hover {
+		color: white;
+		border-bottom: .12em solid #929292;
+		cursor: pointer;
+	}
+}
+/*Mobile*/
+@media (max-width: 767px) {
+    .FooterButton {
+		width: 100%;
+		text-align: left;
+		padding: 12.5px;
+		border-top: .01em solid white;
+		font-size: 0.8em;
+	}
+	#footer ul {
+		margin-top: -2.5px;
+	}
+	.home-footer-btn {
+		background-color: #929292;
+	}
+	.home-footer-btn:hover {
+		color: white;
+	}
+	.nav-footer-btn {
+		background-color: #929292;
+	}
+	.nav-footer-btn:hover {
+		color: white;
+	}
+}
