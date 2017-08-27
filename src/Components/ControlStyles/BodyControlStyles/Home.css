@@ -7,14 +7,14 @@
 #home-container {
 	width: 100%;
 	height:100vh;
-	background-image: url('../../../jogarsoccerappsoccerfield.jpg');
+	background-image: url('../../../img/jogarsoccerappsoccerfield.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 95%;
 }
 
 .jogar-globe {
-	background-image: url('../../../soccerglobe150.png');
+	background-image: url('../../../img/soccerglobe150.png');
 	background-repeat: no-repeat;
 	width: 150px;
 	height: 150px;
@@ -38,7 +38,7 @@
 }
 
 #up-arrow {
-	background-image: url('../../../up-arrow.png');
+	background-image: url('../../../img/up-arrow.png');
 	position: absolute;
 	width: 34px;
 	height: 19px;
